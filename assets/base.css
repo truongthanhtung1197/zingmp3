@@ -1,0 +1,26 @@
+:root{
+    --border_nav-color: hsla(0,0%,100%,0.1);
+    --text_color:#e4eaf1;
+    --background-nav-color: #411465;
+    --background-body-color: #061d4f;
+    --primary-color: #ed2b91;
+    --background-hover: rgba(100, 50, 182, 0.2);
+    
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    user-select: none
+}
+img{
+    user-select: none !important
+}
+html {
+    /* gán giá trị font-size=62.5% để tiện cho việc sử dụng thuộc tính rem */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}

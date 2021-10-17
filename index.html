@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyZing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/base.css">
+    <link rel="stylesheet" href="./assets/grid.css">
+    <link rel="stylesheet" href="./assets/reponsive.css">
+</head>
+<body>
+    <div class="app">
+        
+        
+        <div class="container">
+            <div class="nav hideOn-mb">
+                <div class="nav_header hideOn-tl">
+                    <img src="https://static-zmp3.zadn.vn/zmp3_rpt/images/logo-mp3.svg" alt="">
+                </div>
+                <div class="nav_header">
+                    <img src=" https://www.apkmirror.com/wp-content/uploads/2017/09/59b00ed228ff0.png" alt="">
+                </div>
+                <ul class="nav_option-list">
+                    <li class="nav_option-item active">
+                        <i class="nav_option-item-icon fab fa-itunes"></i>
+                        <p class="nav_option-item-link hideOn-tl">Cá nhân</p>
+                    </li>
+                    <li class="nav_option-item">
+                        <i class=" nav_option-item-icon fas fa-record-vinyl"></i>
+                        <p class="nav_option-item-link hideOn-tl">Khám phá</p>
+                    </li>
+                    <li class="nav_option-item">
+                        <i class="nav_option-item-icon fas fa-chart-line"></i>
+                        <p class="nav_option-item-link hideOn-tl">#zingchart</p>
+                    </li>
+                    <li class="nav_option-item">
+                        <i class="nav_option-item-icon fas fa-headphones-alt"></i>
+                        <p class="nav_option-item-link hideOn-tl">Radio</p>
+                        <span class="nav_option-item-live hideOn-tl">LIVE</span>
+                    </li>
+                    <li class="nav_option-item">
+                        <i class="nav_option-item-icon fas fa-rss"></i>
+                        <p class="nav_option-item-link hideOn-tl">Theo giõi</p>
+                    </li>
+                    <li class="nav-boder"></li>
+                </ul>
+                <ul class="nav_option-list-scroll">
+                    <li class="nav_option-item">
+                        <i class="nav_option-item-icon fas fa-music"></i>
+                        <p class="nav_option-item-link hideOn-tl">Nhạc mới</p>
+                    </li>
+                    <li class="nav_option-item">
+                        <i class="nav_option-item-icon fas fa-icons"></i>
+                        <p class="nav_option-item-link hideOn-tl">Thể loại</p>
+                    </li>
+                    <li class="nav_option-item">
+                        <i class="nav_option-item-icon ti-star"></i>
+                        <p class="nav_option-item-link hideOn-tl">Top 100</p>
+                    </li>
+                    <li class="nav_option-item">
+                        <i class="nav_option-item-icon fab fa-youtube"></i>
+                        <p class="nav_option-item-link hideOn-tl">MV</p>
+                    </li>
+                    
+                    <div class="nav-ad hideOn-tl">
+                        <p class="nav-ad_text">Nghe nhạc không quảng cáo cùng kho nhạc VIP</p>
+                        <button class="nav-ad-btn">MUA VIP</button>
+                    </div>
+                    <div class="nav-athena nav_option-item-link">Thư Viện</div>
+                    <div class="nav_option-item">
+                        <img src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.0.13/static/media/my-song.cf0cb0b4.svg" alt="" class="nav_option-item-img">
+                        <p class="nav_option-item-link hideOn-tl">Bài hát</p>
+                    </div>
+                    <div class="nav_option-item">
+                        <img src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.0.13/static/media/my-playlist.7e92a5f0.svg" alt="" class="nav_option-item-img">
+                        <p class="nav_option-item-link hideOn-tl">Playlist</p>
+                    </div>
+                    <div class="nav_option-item">
+                        <img src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.0.13/static/media/my-history.374cb625.svg" alt="" class="nav_option-item-img">
+                        <p class="nav_option-item-link hideOn-tl">Gần đây</p>
+                    </div>
+                    <div class="nav-footer">
+                        <span class="nav-footer-onpc hideOn-tl">
+                            <i class="fas fa-plus nav-footer_icon"></i>
+                            <p class="nav-footer_text">Tạo playlist mới</p>
+                        </span>
+                        <span class="nav-footer-on-tablet">
+                            <i class="fas fa-chevron-right"></i>
+                        </span>
+                    </div>
+                </ul>
+            </div>
+            <div class="body">
+                <div class="body_header">
+                    <div class="header_arrow hideOn-mb">
+                        <i class="active header_arrow-item fas fa-arrow-left"></i>
+                        <i class="header_arrow-item fas fa-arrow-right"></i>
+                    </div>
+                    <div class="header_search">
+                        <span class="header_search-icon" ><i class="fas fa-search"></i></span>
+                        <input type="text" placeholder="Nhập tên bài hát, Nghệ sỹ hoặc MV...">
+                        <div class="header_history">
+                            <div class="history_item">
+                                <i class="fas fa-search"></i>
+                                <p>#zingchart</p>
+                            </div>
+                            <div class="history_item">
+                                <i class="fas fa-search"></i>
+                                <p>sơn tùng</p>
+                            </div>
+                            <div class="history_item">
+                                <i class="fas fa-search"></i>
+                                <p>lên nóc nhà</p>
+                            </div>
+                            <div class="history_item">
+                                <i class="fas fa-search"></i>
+                                <p>rồi tới luôn</p>
+                            </div>
+                            <div class="history_item">
+                                <i class="fas fa-search"></i>
+                                <p>nonstop</p>
+                            </div>
+                            <div class="history_item">
+                                <i class="fas fa-search"></i>
+                                <p>em là con thuyền cô đơn</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+
+                    <div class="header_option">
+                        <span class="header_option-item header_option-item-tshirt"><i class="fas fa-tshirt"></i></span>
+                        <span class="header_option-item hideOn-mb-tl"><i class="fas fa-upload"></i></span>
+                       
+                            <span class="header_option-item js-setting">
+                                <i class="fas fa-cog"></i>
+                                <div class="header_option-item-menuSetting">
+                                    <div class="menuSetting-item">
+                                        <i class="fas fa-ban"></i>
+                                        <p>Danh sách chặn</p>
+                                    </div>
+                                    <div class="menuSetting-item">
+                                        <i class="far fa-dot-circle"></i>
+                                        <p>Chất lượng nhạc</p>
+                                    </div>
+                                    <div class="menuSetting-item">
+                                        <i class="far fa-play-circle"></i>
+                                        <p>Trình phát nhạc</p>
+                                    </div>
+                                    <div class="menuSetting-item border"></div>
+                                    <div class="menuSetting-item">
+                                        <i class="fas fa-info-circle"></i>
+                                        <p>Giới thiệu</p>
+                                    </div>
+                                    <div class="menuSetting-item">
+                                        <i class="far fa-flag"></i>
+                                        <p>Góp ý</p>
+                                    </div>
+                                    <div class="menuSetting-item">
+                                        <i class="fas fa-phone-alt"></i>
+                                        <p>Liên hệ</p>
+                                    </div>
+                                    <div class="menuSetting-item">
+                                        <i class="fas fa-ad"></i>
+                                        <p>Quảng cáo</p>
+                                    </div>
+                                    <div class="menuSetting-item">
+                                        <i class="fas fa-clipboard-list"></i>
+                                        <p>Thoả thuận sử dụng</p>
+                                    </div>
+                                </div>
+                            </span>
+                        
+                        <div class=" header_option-item hideOn-mb header_option-avatar">
+                            <img src="./assets/img/z2812291574431_127e12b45b27fb2b88fda50e2a029e49.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="body_content">
+                    <div class="content_user">
+                       <div class="content_user-action">
+                            <span class="content_user-action-item">
+                                <p class="content_user-action-text active">MUA VIP NGAY</p>
+                            </span>
+                            <span class="content_user-action-item">
+                                <p class="content_user-action-text">NHẬN CODE VIP</p>
+                            </span>
+                            <span class="content_user-action-item hideOn-mb">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                            
+                       </div>
+                    </div>
+                    <div class="content_user-avatar">
+                        <span  class="content_user-avatar-item"> </span> 
+                        <span class="content_user-name">Trương Thanh Tùng</span>
+                   </div>
+
+                </div>
+                <div class="body_tab">
+                    <ul class="body_tab-list">
+                        <li class="body_tab-list-item active"><span>TỔNG QUAN</span></li>
+                        <li class="body_tab-list-item"><span>BÀI HÁT</span></li>
+                        <li class="body_tab-list-item"><span>PLAYLIST</span></li>
+                        <li class="body_tab-list-item hideOn-mb"><span>NGHỆ SỸ</span></li>
+                        <li class="body_tab-list-item"><span>ALBUM</span></li>
+                        <li class="body_tab-list-item hideOn-mb"><span>MV</span></li>
+                        <li class="body_tab-list-item hideOn-mb"><span>TẢI LÊN</span></li>
+                    </ul>
+                </div>
+                <div class="body_tab-content-tongquan active">
+                    <div class="body_tab-content-tongquan-wrap">
+                        <div class="tongquan_side-bar">
+                            <div class="tongquan_side-bar-songs">
+                                <span class="tongquan_side-bar-songs-text">BÀI HÁT</span>
+                                <span class="tongquan_side-bar-songs-icon"><i class="fas fa-angle-right"></i></span>
+                            </div>
+                            <div class="tongquan_side-bar-right">
+                                <div class="tongquan_side-bar-right-upload hideOn-mb">
+                                    <span class="tongquan_side-bar-right-upload-icon"><i class="fas fa-upload"></i></span>
+                                    <p class="tongquan_side-bar-right-upload-tex">TẢI LÊN</p>
+                                </div>
+                                <div class="tongquan_side-bar-right-playall">
+                                    <span class="tongquan_side-bar-right-playall-icon"><i class="fas fa-play"></i></span>
+                                    <p class="tongquan_side-bar-right-playall-text">PHÁT TẤT CẢ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tongquan_body">
+                            <div class="tongquan_body-slider hideOn-mb-tl">
+                                <!-- <img   class="tongquan_body-slider-img first" src="./assets/img/roitoiluon.jpg" alt="">
+                                <img   class="tongquan_body-slider-img second" src="./assets/img/muonroimasaocon.jpg" alt="">
+                                <img   class="tongquan_body-slider-img third" src="./assets/img/nguoilathoangqua-dinhtunghuy.jpg" alt=""> -->
+                            </div>
+                            <div class="tongquan_body-listSong">
+                                
+                                <!-- <div class="tongquan_body-listSong-item">
+                                    <div class="tongquan_body-listSong-item-iconPlay">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                   
+                                    <div class="listSong_item-body">
+                                        <div class="listSong_item-body-avatar">
+                                            <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/covers/7/c/7c6be286dd1c9831e37a14eca4016975_1467343706.jpg" alt="">
+                                            <span class="listSong_item-body-avatar-gif">
+                                                <img src="https://i.gifer.com/XiPx.gif" alt="">
+                                            </span>
+                                            
+                                            
+                                            
+                                        </div>
+                                        <div class="listSong_item-body-wrap">
+                                            <div class="listSong_item-body-name">Như những phút ban đầu</div>
+                                            <div class="listSong_item-body-singer">Hoài Lâm</div>
+                                        </div>
+                                    </div>
+                                    <div class="listSong_item-timeSong">5:35</div>
+                                    <div class="listSong_item-option">
+                                        <span class="listSong_item-option-icon listSong_item-option-icon-mv"><i class="fab fa-youtube"></i></span>
+                                        <span class="listSong_item-option-icon listSong_item-option-icon-lyric"><i class="fas fa-microphone-alt"></i> </span>
+                                        <span class="listSong_item-option-icon listSong_item-option-icon-heart"><i class="fas fa-heart"></i></span>
+                                        <span class="listSong_item-option-icon listSong_item-option-icon-heart--empty"><i class="far fa-heart"></i></span>
+                                        
+                                        <span class="listSong_item-option-icon listSong_item-option-icon-more"><i class="fas fa-ellipsis-h"></i></span>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid wide tongquan_addPlayList">
+                        <div class="tongquan_addPlayList-heading">
+                            <div class="tongquan_addPlayList-heading-text">PLAYLIST</div>
+                            <span class="tongquan_addPlayList-heading-icon"><i class="fas fa-angle-right"></i></span>
+                        </div>
+                        <div class=" row tongquan_addPlayList-body">
+                            <div class="col l-3 tab_album-item c-6  m-4">
+                                <div class="tongquan_addPlayList-body-itemAdd">
+                                    <i class="tongquan_addPlayList-body-itemAdd-icon ti-plus"></i>
+                                    <span class="tongquan_addPlayList-body-itemAdd-text">Tạo play list mới</span>
+                                </div>
+                            </div>
+                            <div class="col l-3 c-6 m-4">
+                                <div class="tongquan_addPlayList-body-item">
+                                    <span class="tongquan_addPlayList-body-item-img">
+                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/1/2/1/f/121fde6fe3898bc64cf04b716ddbe590.jpg" alt="">
+                                        <div class="hover">
+                                            <i class="fas fa-heart"></i>
+                                            <i class="far fa-play-circle"></i>
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </div>
+                                    </span>
+                                    <div class="tongquan_addPlayList-body-item-wrap">
+                                        <div class="tongquan_addPlayList-body-item-name">
+                                            4U - On Repeat 
+                                        </div>
+                                        <div class="tongquan_addPlayList-body-item-soucer">
+                                            Zing MP3
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                           
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+
+
+
+
+                <div class="body_tab-content-tongquan">
+                    
+
+                </div>
+
+
+
+                <div class="body_tab-content-tongquan">
+
+                </div>
+                <div class="body_tab-content-tongquan">
+                    <div class="body_tab-noSinger">
+                        <div class="body_tab-noSinger-icon">
+                            <img src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.3.1/static/media/artist-icon.0b64fd14.svg" alt="">
+                        </div>
+                        <div class="body_tab-noSinger-text">
+                            Không có Nghệ Sĩ trong thư viện cá nhân
+                        </div>
+                    </div>
+                </div>
+                <div class="body_tab-content-tongquan">
+                    <div class="body_tab-album">
+                        <div class="body_tab-album-heading">
+                            ALBUM
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="grid wide">
+
+                            <div class="row">
+                                <div class="col l-3 tab_album-item">
+                                    <div class="body_tab-album-item-img">
+                                        <div class="body_tab-album-item-img-br" style=" background: url('https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/8/1/7/c/817c68b5854c715e3e2c640df0287dfa.jpg') no-repeat center / cover;">
+    
+                                        </div>
+                                        <div class="tab_album-item-control">
+                                            <i class="fas fa-heart"></i>
+                                            <i class="far fa-play-circle"></i>
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </div>
+                                    </div>
+                                    <div class="body_tab-album-item-info">
+                                        Chiếc đèn ông sao
+                                    </div>
+
+                                    
+                                    
+                                </div>
+                                <div class="col l-3 tab_album-item">
+                                    <div class="body_tab-album-item-img">
+                                        <div class="body_tab-album-item-img-br" style=" background: url('https://avatar-ex-swe.nixcdn.com/song/2021/09/02/8/9/0/5/1630571241179_640.jpg') no-repeat center / cover;">
+    
+                                        </div>
+                                        <div class="tab_album-item-control">
+                                            <i class="fas fa-heart"></i>
+                                            <i class="far fa-play-circle"></i>
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </div>
+                                    </div>
+                                    <div class="body_tab-album-item-info">
+                                        Khuê Mộc Lan
+                                    </div>
+
+                                    
+                                    
+                                </div>
+                                <div class="col l-3 tab_album-item">
+                                    <div class="body_tab-album-item-img">
+                                        <div class="body_tab-album-item-img-br" style=" background: url('https://lyricvn.com/wp-content/uploads/2020/11/9b8e8e3aca20247aa776599ba6f94ca8.jpg') no-repeat center / cover;">
+    
+                                        </div>
+                                        <div class="tab_album-item-control">
+                                            <i class="fas fa-heart"></i>
+                                            <i class="far fa-play-circle"></i>
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </div>
+                                    </div>
+                                    <div class="body_tab-album-item-info">
+                                       Em băng qua
+                                    </div>
+
+                                    
+                                    
+                                </div>
+                                <div class="col l-3 tab_album-item">
+                                    <div class="body_tab-album-item-img">
+                                        <div class="body_tab-album-item-img-br" style=" background: url('https://i1.sndcdn.com/artworks-000375743133-f1e0vs-t500x500.jpg') no-repeat center / cover;">
+    
+                                        </div>
+                                        <div class="tab_album-item-control">
+                                            <i class="fas fa-heart"></i>
+                                            <i class="far fa-play-circle"></i>
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </div>
+                                    </div>
+                                    <div class="body_tab-album-item-info">
+                                        Khi cô đơn em nhớ ai
+                                    </div>
+
+                                    
+                                    
+                                </div>
+                                <div class="col l-3 tab_album-item">
+                                    <div class="body_tab-album-item-img">
+                                        <div class="body_tab-album-item-img-br" style=" background: url('https://carrotstore.com/thumb.php?src=https://carrotstore.com/app_mygirl/app_my_girl_vi_img/61721.png&size=420x220&trim=1') no-repeat center / cover;">
+    
+                                        </div>
+                                        <div class="tab_album-item-control">
+                                            <i class="fas fa-heart"></i>
+                                            <i class="far fa-play-circle"></i>
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </div>
+                                    </div>
+                                    <div class="body_tab-album-item-info">
+                                        Mưa tuyết
+                                    </div>
+
+                                    
+                                    
+                                </div>
+                                <div class="col l-3 tab_album-item">
+                                    <div class="body_tab-album-item-img">
+                                        <div class="body_tab-album-item-img-br" style=" background: url('https://images.genius.com/24703e4232113b71f960189b71287d87.240x240x1.jpg') no-repeat center / cover;">
+    
+                                        </div>
+                                        <div class="tab_album-item-control">
+                                            <i class="fas fa-heart"></i>
+                                            <i class="far fa-play-circle"></i>
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </div>
+                                    </div>
+                                    <div class="body_tab-album-item-info">
+                                        Cô ấy nói
+                                    </div>
+
+                                    
+                                    
+                                </div>
+                                <div class="col l-3 tab_album-item">
+                                    <div class="body_tab-album-item-img">
+                                        <div class="body_tab-album-item-img-br" style=" background: url('https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/2/0/c/8/20c8208e735601981e8d3b85b3d4cacd.jpg') no-repeat center / cover;">
+    
+                                        </div>
+                                        <div class="tab_album-item-control">
+                                            <i class="fas fa-heart"></i>
+                                            <i class="far fa-play-circle"></i>
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </div>
+                                    </div>
+                                    <div class="body_tab-album-item-info">
+                                        Họ yêu ai mất rồi
+                                    </div>
+
+                                    
+                                    
+                                </div>
+                                <div class="col l-3 tab_album-item">
+                                    <div class="body_tab-album-item-img">
+                                        <div class="body_tab-album-item-img-br" style=" background: url('https://photo-zmp3.zadn.vn/cover/f/c/3/3/fc33b26bc7f3bd1cb8ef011bcdc1c70c.jpg') no-repeat center / cover;">
+    
+                                        </div>
+                                        <div class="tab_album-item-control">
+                                            <i class="fas fa-heart"></i>
+                                            <i class="far fa-play-circle"></i>
+                                            <i class="fas fa-ellipsis-h"></i>
+                                        </div>
+                                    </div>
+                                    <div class="body_tab-album-item-info">
+                                        Chỉ vì anh quá thương em
+                                    </div>
+
+                                    
+                                    
+                                </div>
+                              
+                                
+
+                                
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                   
+
+                </div>
+                <div class="body_tab-content-tongquan">
+                    <div class="body_tab-noSinger">
+                        <div class="body_tab-noSinger-icon">
+                            <img src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.3.1/static/media/video-icon.09654360.svg" alt="">
+                        </div>
+                        <div class="body_tab-noSinger-text">
+                            Không có MV trong thư viện nhạc
+                        </div>
+                    </div>
+                </div>
+                <div class="body_tab-content-tongquan">
+                    <div class="body_tab-noSinger">
+                        <div class="body_tab-noSinger-icon">
+                            <img src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.3.1/static/media/music-icon.cfa4aa91.svg" alt="">
+                        </div>
+                        <div class="body_tab-noSinger-text">
+                            Không có bài hát tải lên
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div> 
+        <footer class="footer">
+           
+            <div class="media">
+                <div class="media_cd">
+    
+                </div>
+                <div class="media_title">
+                    <marquee class="media_title-nameSong">Rồi tới luôn</marquee>
+                    <div class="media_title-singer">NAL</div>
+                </div>
+                <div class="media_title-gif">
+                    <img class="media_title-gif-item" src="https://i.gifer.com/4EAw.gif" alt="">
+                </div>
+                <div class="media_title-icon hideOn-mb-tl">
+                    <div class="media_title-icon-more heart">
+                        <span  class="media_title-icon-heart--empty  media_title-icon-item">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span class="media_title-icon-heart media_title-icon-item">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class="media_title-icon-more">
+                        <span class="media_title-icon-more media_title-icon-item">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <ul class="controls_icon">
+                    <li class="control_icon-item control_icon-item-random hideOn-mb">
+                        <i class="fas fa-random"></i>
+                    </li>
+                    <li class="control_icon-item control_icon-item-back">
+                        <i class="fas fa-step-backward"></i>
+                    </li>
+                    <li class="control_icon-item control_icon-item-playandPause">
+                        <span class="control_icon-item-play">
+                        <i class="far fa-play-circle"></i>
+                        </span>
+                        <span class="control_icon-item-pause">
+                        <i class="far fa-pause-circle"></i>
+                        </span>
+                    </li>
+                    <li class="control_icon-item control_icon-item-next">
+                        <i class="fas fa-step-forward"></i>
+                    </li>
+                    <li class="control_icon-item control_icon-item-repeat hideOn-mb">
+                        <i class="fas fa-redo"></i>
+                    </li>
+                </ul>
+                <div class="controls_input hideOn-mb">
+                    <span class="controls_input-currentTime controls_input-time">00:00</span>
+                    <input id="progress" class="progress hideOn-mb" type="range" value="0" step="1" min="0" max="100">
+                    <span class="controls_input-totalTime controls_input-time">00:00</span>
+    
+    
+                </div>
+    
+    
+                
+            </div>
+            <div class="extend hideOn-mb">
+                <span class="extend_icon hideOn-tl extend_icon-yt">
+                    <i class="fab fa-youtube"></i>
+    
+                </span>
+                <span class="extend_icon hideOn-tl extend_icon-mic">
+                    <i class="fas fa-microphone"></i>
+    
+                </span>
+                <span class="extend_icon hideOn-tl extend_icon-screen">
+                    <i class="fas fa-expand-alt"></i>
+    
+                </span>
+                <span class="extend_icon extend_icon-vol">
+                    <span class="extend_icon-vol-up active">
+                        <i class="fas fa-volume-up"></i>
+                    </span>
+                    <span class="extend_icon-vol-dow">
+                        <i class="fas fa-volume-down"></i>
+                    </span>
+                    <span class="extend_icon-vol-mute">
+                        <i class="fas fa-volume-mute"></i>
+                    </span>
+                    
+                    
+                </span>
+                <input class="volumeInput" type="range" value="100" min="0" max="100" step="1">
+                <span class="extend-border"></span>
+    
+                <span class="extend_icon extend_icon-list">
+                    <i class="fas fa-list-ul"></i>
+    
+                </span>
+            </div>
+           
+            
+        </footer> 
+        <div class="footer_onmb">
+            <ul class="list_navbar">
+                <li class="list_navbar-item">
+                    <i class="fab fa-itunes"></i>
+                    <p class="list_navbar-item-text">Cá Nhân</p>
+                </li>
+                <li class="list_navbar-item">
+                    <i class="fas fa-compact-disc"></i>
+                    <p class="list_navbar-item-text">#zingchart</p>
+
+                </li>
+                <li class="list_navbar-item">
+                    <i class="fas fa-comments"></i>
+                    <p class="list_navbar-item-text">#zingchart</p>
+                </li>
+                <li class="list_navbar-item">
+                    <i class="fas fa-radiation-alt"></i>
+                    <p class="list_navbar-item-text">Radio</p>
+                </li>
+                <li class="list_navbar-item">
+                    <i class="fas fa-rss"></i>
+                    <p class="list_navbar-item-text">Theo giõi</p>
+                </li>
+            </ul>
+        </div>
+        
+            
+
+    </div>
+   
+    <audio id="audio" src=""></audio>
+    <script src="/assets/main.js"></script>
+    
+    
+
+</body>
+</html>

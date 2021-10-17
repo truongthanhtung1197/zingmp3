@@ -1,0 +1,282 @@
+
+
+/* mb and tablet */
+@media (max-width: 1023px){
+    .hideOn-mb-tl{
+        display: none;
+    }
+    
+    .body_tab-list{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .nav-footer-on-tablet,
+    .header_arrow{
+        -webkit-tap-highlight-color: transparent;
+    }
+   
+}
+/*  tablet  */
+@media (min-width : 740px) and ( max-width: 1023px) {
+    .hideOn-tl{
+        display: none;
+    }
+    .nav{
+        width: 70px;
+    }
+    
+    .nav_header:nth-child(2){
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 70px;
+    }
+    
+    .body{
+        width: 100%;
+    }
+    .body_header{
+        top: 0;
+        right: 0;
+        left: 70px;
+    }
+    
+    .tongquan_addPlayList{
+        width: 100%;
+    }
+    
+    
+     .controls{
+         flex: 1.7
+     }
+    
+    
+     .nav_option-item{
+         height: 50px;
+         justify-content: center;
+     }
+     .nav_option-item-icon{
+         font-size: 26px;
+     }
+     .nav_option-item.active{
+         border-left: unset;
+     }
+     .nav_option-item-icon{
+         margin-left: unset;
+     }
+     
+     .nav_option-item img{
+         margin-left: unset;
+         font-size: 26px;
+     }
+     .nav-footer{
+        border-top: unset;
+        padding: unset;
+        display: flex;
+        justify-content: center;
+        height: 70px;
+        align-items: center;
+        cursor: unset;
+    }
+     
+     .nav-footer-on-tablet{
+         display: flex;
+         font-size: 1.6rem;
+         background-color: rgba(254, 254, 255,0.3);
+         width: 40px;
+         height: 40px;
+         align-items: center;
+         justify-content: center;
+         border-radius: 50%;
+         cursor: pointer;
+     }
+     .content_user{
+         width: 320px;
+     }
+     .content_user-action{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 10px;
+        margin-top: -60px;
+    }
+    .content_user-avatar{
+        margin-top: 4px;
+        margin-top: 150px;
+    }
+    .header_search input{
+        width: 320px;
+    }
+    .controls_icon{
+        width: 68%;
+    }
+   
+   
+}
+/* mobile */
+@media ( max-width: 739px) {
+    .hideOn-mb{
+        display: none;
+    }
+    
+    .body_header{
+        top: 0;
+        right: 0;
+        left: 0;
+        padding: 0 10px;
+        background-color: #260045;
+
+ 
+    }
+    .body_header.background{
+        background-color: #260045;
+
+    }
+    .header_search input{
+        width: 186px;
+    }
+    .header_search{
+        width: 250px !important;
+    }
+    .header_arrow{
+        display: none;
+    }
+    
+    .header_option{
+        margin: unset;
+    }
+    .header_option-item:nth-child(3){
+        margin: unset;
+    }
+    .body::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .content_user{
+        position: unset;
+        margin-top: 82px;
+        width: 100%;
+    }
+    .content_user-action{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 10px;
+    }
+    .content_user-avatar{
+        margin-top: 4px;
+    }
+    .content_user-action-item p{
+        padding: 10px 20px;
+        font-size: 1.4rem;
+    }
+    
+    .body_tab-list{
+        margin: 56px 10px 0 10px;
+    }
+    .body_tab-list-item{  
+        font-size: 1.4rem;
+    }
+    
+    .tongquan_side-bar{
+        width: 100%;
+    }
+    
+    .body_tab-content-tongquan{
+        padding: 0 10px;
+    }
+    .tongquan_side-bar-right-playall{
+        padding: 10px 20px;
+    }
+    .tongquan_body-listSong::-webkit-scrollbar{
+        display: none;
+    }
+    .tongquan_body-listSong{
+        margin: 0 10px;
+    }
+    .tongquan_body-listSong-item{
+        margin: unset;
+        padding: 10px;
+    }
+    
+    .listSong_item-body{
+        flex: 1;
+    }
+    .footer_onmb{
+        display: flex;
+        width: 100%;
+        background-color: #260045;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+
+    }
+    .list_navbar{
+        display: flex;
+        height: 60px;
+        justify-content: space-between;
+        width: 100%;
+        list-style: none;
+        align-items: center;
+    }
+    .list_navbar-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 60px;
+        justify-content: center;
+        flex: 1;
+        font-size: 1.3rem;
+        color: var(--text_color);
+    }
+    .list_navbar-item-text{
+        margin-top: 3px;
+    }
+    .list_navbar-item i{
+        font-size: 1.7rem;
+    }
+    .footer{
+        height: 60px;
+        right: 0;
+        padding: 0 10px;
+        background-color: #260045;
+        background-image: unset;
+        position: fixed;
+        bottom: 60px;
+        right: 0;
+        left: 0;
+    }
+    
+    .media{
+        padding: 0;
+        flex: 1;
+    }
+    .media_cd{
+        height: 50px;
+        width: 50px;
+    }
+    
+    .controls_icon{
+        margin: auto 10px;
+    }
+    .controls{
+        flex: 0;
+        width: 128px;
+    }
+    .controls_icon{
+        width: 100%;
+    }
+    .media_title{
+        padding: 2px 0;
+        width: 164px;
+    }
+    .tongquan_addPlayList{
+        margin: 40px 0 !important;
+    }
+   
+    
+    
+
+   
+}
