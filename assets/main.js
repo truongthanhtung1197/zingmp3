@@ -63,32 +63,32 @@ var app = {
         {
             name: 'Rồi tới luôn',
             singer: 'NAL',
-            path: '/assets/song/Roi Toi Luon-Nal.mp3',
-            image: '/assets/img/roitoiluon.jpg',
+            path: './assets/song/Roi Toi Luon-Nal.mp3',
+            image: './assets/img/roitoiluon.jpg',
             time: '04:06'
 
         },
         {
             name: '1 phút',
             singer: 'Andiez',
-            path: '/assets/song/1 Phut - Andiez (NhacPro.net).mp3',
-            image: '/assets/img/1phut-Andiez.jpg',
+            path: './assets/song/1 Phut - Andiez (NhacPro.net).mp3',
+            image: './assets/img/1phut-Andiez.jpg',
             time: '06:16'
 
         },
         {
             name: 'Em là con thuyền cô đơn',
             singer: 'Thái Học',
-            path: '/assets/song/EmLaConThuyenCoDon-ThaiHoc-7099598.mp3',
-            image: '/assets/img/emlaconthuyenkhongben.jpg',
+            path: './assets/song/EmLaConThuyenCoDon-ThaiHoc-7099598.mp3',
+            image: './assets/img/emlaconthuyenkhongben.jpg',
             time: '05:05'
 
         },
         {
             name: 'Hoa vô sắc',
             singer: 'Jack',
-            path: '/assets/song/HoaVoSac-KICMJackG5R-6181476.mp3',
-            image: '/assets/img/hoavosac.jpg',
+            path: './assets/song/HoaVoSac-KICMJackG5R-6181476.mp3',
+            image: './assets/img/hoavosac.jpg',
             time: '04:40'
 
 
@@ -96,80 +96,80 @@ var app = {
         {
             name: 'Muộn rồi mà sao còn',
             singer: 'Sơn Tùng MVP',
-            path: '/assets/song/Muon Roi Ma Sao Con - Son Tung M-TP.mp3',
-            image: '/assets/img/sontung.jpg',
+            path: './assets/song/Muon Roi Ma Sao Con - Son Tung M-TP.mp3',
+            image: './assets/img/sontung.jpg',
             time: '04:35'
 
         },
         {
             name: 'Nàng thơ',
             singer: 'Hoàng Dũng',
-            path: '/assets/song/NangTho-HoangDung-6413381.mp3',
-            image: '/assets/img/nangtho.jpg',
+            path: './assets/song/NangTho-HoangDung-6413381.mp3',
+            image: './assets/img/nangtho.jpg',
             time: '01:14'
 
         },
         {
             name: 'Ngày chưa giông bão',
             singer: 'Bùi Lan Hương',
-            path: '/assets/song/NgayChuaGiongBaoNguoiBatTuOst-BuiLanHuong-5708274.mp3',
-            image: '/assets/img/ngaychuagiongbao.jpg',
+            path: './assets/song/NgayChuaGiongBaoNguoiBatTuOst-BuiLanHuong-5708274.mp3',
+            image: './assets/img/ngaychuagiongbao.jpg',
             time: '03:32'
 
         },
         {
             name: 'Người lạ thoáng qua',
             singer: 'Đinh Tùng Huy',
-            path: '/assets/song/Nguoi La Thoang Qua - Dinh Tung Huy_ ACV.mp3',
-            image: '/assets/img/nguoilathoangqua-dinhtunghuy.jpg',
+            path: './assets/song/Nguoi La Thoang Qua - Dinh Tung Huy_ ACV.mp3',
+            image: './assets/img/nguoilathoangqua-dinhtunghuy.jpg',
             time: '04:45'
 
         },
         {
             name: 'Níu duyên',
             singer: 'Lê Bảo Bình',
-            path: '/assets/song/NiuDuyen-LeBaoBinh-6872127.mp3',
-            image: '/assets/img/nuiduyen.jpg',
+            path: './assets/song/NiuDuyen-LeBaoBinh-6872127.mp3',
+            image: './assets/img/nuiduyen.jpg',
             time: '05:35'
 
         },
         {
             name: 'Phận duyên lỡ làng',
             singer: 'PhatHuyT4Trugz',
-            path: '/assets/song/PhanDuyenLoLang-PhatHuyT4Trugz-7004538.mp3',
-            image: '/assets/img/phanduyenlolang.jpg',
+            path: './assets/song/PhanDuyenLoLang-PhatHuyT4Trugz-7004538.mp3',
+            image: './assets/img/phanduyenlolang.jpg',
             time: '04:15'
 
         },
         {
             name: 'Sóng gió',
             singer: 'Jack',
-            path: '/assets/song/SongGioDJXuanNuiRemix-DJXuanNuiKICMJackG5R-6035315.mp3',
-            image: '/assets/img/songgio.jpg',
+            path: './assets/song/SongGioDJXuanNuiRemix-DJXuanNuiKICMJackG5R-6035315.mp3',
+            image: './assets/img/songgio.jpg',
             time: '03:15'
 
         },
         {
             name: 'Thê lương',
             singer: 'Phúc Chinh',
-            path: '/assets/song/TheLuong-PhucChinh-6971140.mp3',
-            image: '/assets/img/theluong-phucchinh.jpg',
+            path: './assets/song/TheLuong-PhucChinh-6971140.mp3',
+            image: './assets/img/theluong-phucchinh.jpg',
             time: '05:13'
 
         },
         {
             name: 'Tình thương phu thê',
             singer: 'Chí Hướng',
-            path: '/assets/song/TinhThuongPhuThe-ChiHuong-7024958.mp3',
-            image: '/assets/img/tinhthuongphuthue.jpg',
+            path: './assets/song/TinhThuongPhuThe-ChiHuong-7024958.mp3',
+            image: './assets/img/tinhthuongphuthue.jpg',
             time: '04:34'
 
         },
         {
             name: 'Em gái mưa',
             singer: 'Gin Tuấn Kiệt',
-            path: '/assets/song/EmGaiMuaCover-GinTuanKiet-5184453.mp3',
-            image: '/assets/img/emgaimua-gin.jpg',
+            path: './assets/song/EmGaiMuaCover-GinTuanKiet-5184453.mp3',
+            image: './assets/img/emgaimua-gin.jpg',
             time: '02:46'
 
         },
