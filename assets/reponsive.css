@@ -274,6 +274,9 @@
     .tongquan_addPlayList{
         margin: 40px 0 !important;
     }
+    .body_tab-content-tongquan.active{
+        margin-bottom: 30px;
+    }
    
     
     
