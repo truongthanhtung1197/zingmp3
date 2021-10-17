@@ -1010,10 +1010,10 @@
     width: 100%;
 }
 .media_title-gif-item{
-    width: 67px;
+    width: 34px;
     position: absolute;
     opacity: 0;
-    bottom: -13px;
+    bottom: -6px;
     left: 155px;
     z-index: 4;
     transition: all 1.5s linear;
