@@ -15,7 +15,10 @@
         -webkit-tap-highlight-color: transparent;
     }
     .body_tab-content-tongquan.active{
-        margin-bottom: 70px;
+        margin-bottom: 80px;
+    }
+    .tongquan_addPlayList{
+        margin-bottom: 80px
     }
    
 }
